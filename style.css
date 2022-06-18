@@ -316,6 +316,13 @@ address img{
    align-items: center;
 
 }
+  .footer-ctawrap{
+    width: 40%;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    justify-items: start;
+    align-items: center;
+     }
  .btn{
      width: 90%;
      padding: 1.2rem 4rem;
@@ -328,7 +335,7 @@ address img{
       margin-inline: 0;
       margin-right: 22%;
   }
-  
+
   .ctablock{
      display: flex;
       justify-content: space-between;
@@ -337,18 +344,13 @@ address img{
  .cta__textblock{
   width: 45%;   
  }
- .footer-ctawrap{
-width: 40%;
-display: grid;
-grid-template-columns: max-content 1fr;
-justify-items: start;
-align-items: center;
- }
+
  .fcta__mail{
      grid-column: 1/3;
  }
  .fcta__btn{
      grid-column: 1/2;
+width: 100%;
      
  }
 
@@ -393,6 +395,13 @@ width: 80%;
     .btn{
         width: 100%;
     }
+    .footer-ctawrap{
+        width: 40%;
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        justify-items: start;
+        align-items: center;
+         }
     
 }
 .btn:hover,
