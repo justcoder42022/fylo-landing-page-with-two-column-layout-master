@@ -24,9 +24,8 @@ body{
     background-color:hsla(224, 93%, 58%,.1);
 }
 .page-wraper{
-   margin-inline: auto;
+    margin-inline: auto;
     min-height: 100vh;
-    max-width: 144rem;
     padding-block: 2rem 0;
    
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
