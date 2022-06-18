@@ -163,12 +163,14 @@ section > img{
 }
 .reviewCard{
     margin: 5rem;
+    margin-right: 0;
     padding: 3rem;
     border-radius: .5rem;
     color: var(--Very-Dark-Blue);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     background-color: #ffff;
     text-align: left;
+    min-width: min-content;
 }
 .reviewCard > p{
     margin-block: 1rem 3rem;
@@ -370,6 +372,7 @@ align-items: center;
   }
   .footer-nav ul{
       margin: 0;
+      text-align: center;
   }
   .footer-socail{
       margin-inline: 0;
