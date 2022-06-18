@@ -162,8 +162,7 @@ section > img{
     height: 3rem;
 }
 .reviewCard{
-    margin: 5rem;
-    margin-right: 0;
+    margin-block: 5rem;
     padding: 3rem;
     border-radius: .5rem;
     color: var(--Very-Dark-Blue);
