@@ -309,15 +309,15 @@ address img{
      width: 45%;
  }
  .ctawrap{
-     width: 90%;
-    display: grid;
-    grid-template-columns:  1fr max-content;
-    justify-items: start;
-    align-items: center;
+    width: 90%;
+   display: grid;
+   grid-template-columns:  1fr ;
+   justify-items: start;
+   align-items: center;
 
- }
+}
  .btn{
-     width: 100%;
+     width: 90%;
      padding: 1.2rem 4rem;
  }
  .section{
@@ -381,7 +381,20 @@ width: 80%;
   }
 
 }
-
+@media (min-width: 1050px) {
+    .ctawrap{
+        width: 90%;
+       display: grid;
+       grid-template-columns:  1fr max-content;
+       justify-items: start;
+       align-items: center;
+   
+    }
+    .btn{
+        width: 100%;
+    }
+    
+}
 .btn:hover,
 .footer-nav a:hover,
 .guideLink:hover
