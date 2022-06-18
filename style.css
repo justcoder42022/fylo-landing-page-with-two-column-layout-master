@@ -22,9 +22,7 @@ body{
     text-align: center;
     margin-inline: auto;
     background-color:hsla(224, 93%, 58%,.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 .page-wraper{
     min-height: 100vh;
